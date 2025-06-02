@@ -1,0 +1,64 @@
+.main-wrapper {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-toggler-btn {
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .header-title {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .collection-details {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detail-item {
+    margin-bottom: 15px;
+  }
+  
+  .detail-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .detail-value {
+    color: #555;
+  }
+  
+  .status-assigned {
+    color: #ff9800; /* Orange for assigned */
+  }
+  
+  .status-collected {
+    color: #4caf50; /* Green for collected */
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

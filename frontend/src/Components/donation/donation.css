@@ -1,0 +1,10 @@
+.donationpage{
+    background-color: #f5f5f5;
+    padding: 20px;
+    /* margin-top: 20px; */
+    height: 100vh;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

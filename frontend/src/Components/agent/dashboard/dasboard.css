@@ -1,0 +1,55 @@
+.agent-dashboard-main-wrapper {
+    padding: 20px;
+    height: 98vh;
+  }
+  
+  .agent-dashboard-header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .agent-dashboard-sidebar-toggler {
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .agent-dashboard-title {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .agent-dashboard-stats-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .agent-dashboard-stat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .agent-dashboard-stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .agent-dashboard-stat-label {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  

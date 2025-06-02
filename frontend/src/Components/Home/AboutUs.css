@@ -1,0 +1,27 @@
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .slider {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-container {
+    width: 100%;
+  }
+  
+  .carousel-item-padding-40-px {
+    padding: 0 20px;
+  }
+  
+  .custom-dot-list-style {
+    bottom: -30px;
+  }
+  

@@ -1,0 +1,38 @@
+#main-wrapper {
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .agents-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .me {
+    cursor: pointer;
+  }
+  
+  .table {
+    margin-top: 20px;
+    background-color: aliceblue;
+    border-collapse: separate; 
+    border-spacing: 25px 15px;  
+  }
+  
+  .table th,
+  .table td {
+    text-align: left;
+    /* background-color: aliceblue; */
+  }
+  
+  .table th {
+    background-color: aliceblue;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  

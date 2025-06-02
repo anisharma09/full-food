@@ -1,0 +1,58 @@
+.reject-donation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .reject-donation-message {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .reject-donation-error {
+    color: #dc3545;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .reject-donation-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .reject-donation-buttons .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .reject-donation-buttons .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .reject-donation-buttons .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .reject-donation-buttons .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .reject-donation-buttons .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
